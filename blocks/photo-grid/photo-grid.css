@@ -9,7 +9,12 @@
   grid-gap: 16px 16px;
 }
 
-@media screen and (max-width: 1024px) {
+/* ----- MEDIA QUERIES ----- */
+
+/* anything larger than max-width: 1280px, use defaults */
+
+/* resolutions 1024px to 1279px */
+@media screen and (max-width: 1279px) {
   .photo-grid {
     max-width: calc((300px * 3) + (14px * 2));
     grid-template-columns: repeat(3, 1fr);
