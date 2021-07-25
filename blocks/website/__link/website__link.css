@@ -1,0 +1,13 @@
+.website__link {
+  min-width: 456px;
+  min-height: 22px;
+  padding: 0;
+  margin: 4px 0 0;
+  /* typography */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
