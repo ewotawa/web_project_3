@@ -2,7 +2,7 @@
   /* note -- some inconsistency in margins (Erie, PA: 27px; Ohio: 29px; all others: 25px). Assume 25px for all. */
   margin: 25px 0 0;
   padding: 0;
-  min-width: 484px;
+  max-width: 484px;
   /* typography */
   font-style: normal;
   font-weight: normal;
@@ -12,4 +12,5 @@
 
 .place__paragraph:nth-child(1) {
   margin: 0;
+  max-width: 456px;
 }
