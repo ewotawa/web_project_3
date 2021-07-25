@@ -1,0 +1,9 @@
+.footer__link {
+  margin: 0 0 24px 18px;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+.footer__link:nth-child(1) {
+  margin-left: 0;
+}
