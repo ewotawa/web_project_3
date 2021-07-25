@@ -2,7 +2,8 @@
   max-width: 320px;
   max-height: 66px;
   text-align: center;
-  margin: 32px 0 0;
+  margin: 32px auto 0;
+  text-decoration: none;
   /* typography */
   font-style: normal;
   font-weight: normal;

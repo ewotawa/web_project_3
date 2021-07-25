@@ -6,6 +6,15 @@
   height: 740px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  z-index: 1;
+  display: inline-block;
+  /* hover animation */
+  transition: background-color 2s linear;
+  /* typography */
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+
 }

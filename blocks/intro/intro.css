@@ -1,6 +1,7 @@
 .intro {
   padding-top: 114px;
-  margin: 0 148px 0;
+  margin: 0 auto 0;
+  max-width: 984px;
   /* typography */
   font-style: normal;
   font-weight: normal;

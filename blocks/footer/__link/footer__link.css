@@ -1,9 +1,15 @@
 .footer__link {
   margin: 0 0 24px 18px;
   padding: 0;
-  color: #FFFFFF;
+  /* hover animation */
+  opacity: 1;
+  transition: opacity 1s ease-out;
 }
 
 .footer__link:nth-child(1) {
   margin-left: 0;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }

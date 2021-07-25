@@ -3,6 +3,9 @@
   min-height: 22px;
   padding: 0;
   margin: 4px 0 0;
+  /* hover animation */
+  opacity: 1;
+  transition: opacity 1s ease-out;
   /* typography */
   font-style: normal;
   font-weight: normal;
@@ -10,4 +13,8 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+}
+
+.website__link:hover {
+  opacity: 0.8;
 }
