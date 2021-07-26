@@ -14,3 +14,11 @@
     height: 225px;
   }
 }
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .photo-grid__image {
+    width: 352px;
+    height: 264px;
+  }
+}

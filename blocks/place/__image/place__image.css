@@ -15,3 +15,11 @@
     height: 440px;
   }
 }
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+}

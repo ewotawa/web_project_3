@@ -15,3 +15,12 @@
     padding-top: 50px;
   }
 }
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .lead {
+    min-width: auto;
+  }
+}
+
+

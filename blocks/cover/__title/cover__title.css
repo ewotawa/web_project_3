@@ -22,3 +22,10 @@
     margin-top: 233px;
   }
 }
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .cover__title {
+    margin-top: 153px;
+  }
+}

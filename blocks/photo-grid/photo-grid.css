@@ -22,3 +22,13 @@
     grid-gap: 14px 14px;
   }
 }
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    max-width: calc((352px * 2) + 16px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 16px 16px;
+  }
+}

@@ -1,5 +1,7 @@
 .lead__caption {
-  margin-top: 8px;
+  margin: 8px 0 0;
+  min-width: 182px;
+  min-height: 14px;
   /* typography */
   font-style: normal;
   font-weight: normal;
@@ -8,3 +10,19 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* anything larger than max-width: 1280px, use defaults */
+
+/* resolutions 1024px to 1279px */
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+

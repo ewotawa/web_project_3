@@ -3,3 +3,19 @@
   background-color: #2A2C2F;
   color: #FFFFFF;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* anything larger than max-width: 1280px, use defaults */
+
+/* resolutions 1024px to 1279px */
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .page {
+    width: auto;
+  }
+}
+
+

@@ -25,3 +25,15 @@
     max-width: 928px;
   }
 }
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-gap: 48px 28px;
+    max-width: 720px;
+  }
+
+  .place:nth-child(1) {
+    margin: 88px auto 0;
+  }
+}
