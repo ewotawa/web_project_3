@@ -17,6 +17,8 @@ Responsive web site that demonstrates use of relative heights and widths, media 
 ## Link to GitHub Pages
 [Click here](https://ewotawa.github.io/web_project_3/) to see this project rendered in the browser.
 
+## Details provided in the original project repo
+
 ### Overview
 * Intro
 * Figma
