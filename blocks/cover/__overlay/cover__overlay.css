@@ -29,3 +29,11 @@
     max-height: 640px;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    max-height: 200px;
+  }
+}
+

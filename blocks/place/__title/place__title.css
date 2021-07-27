@@ -38,6 +38,7 @@
     margin: 0 16px;
     max-width: unset;
     width: auto;
+    min-height: unset;
     /* typography */
     font-size: 32px;
     line-height: 35px;
