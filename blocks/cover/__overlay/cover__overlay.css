@@ -27,14 +27,22 @@
   .cover__overlay {
     min-width: unset;
     width: 100%;
-    max-height: 640px;
+    min-height: 640px;
   }
 }
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
 
 /* resolutions less than 768px */
 @media screen and (max-width: 767px) {
   .cover__overlay {
-    max-height: 200px;
+    min-height: 200px;
   }
 }
 
