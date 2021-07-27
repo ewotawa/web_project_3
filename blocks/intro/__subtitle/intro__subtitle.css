@@ -24,3 +24,14 @@
     margin: 40px auto;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .intro__subtitle {
+    max-width: unset;
+    width: auto;
+    margin: 40px 16px 0;
+    /* typography */
+    line-height: 30px;
+  }
+}

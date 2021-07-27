@@ -26,3 +26,11 @@
     padding-top: 88px;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-top: 64px;
+  }
+}
+

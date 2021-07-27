@@ -29,3 +29,15 @@
     margin-top: 153px;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .cover__title {
+    margin: 51px 16px 0;
+    max-width: unset;
+    width: auto;
+    /* typography */
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

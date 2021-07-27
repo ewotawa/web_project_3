@@ -32,3 +32,12 @@
     max-width: 352px;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .website__link {
+    margin: 0 16px;
+    max-width: unset;
+    width: auto;
+  }
+}

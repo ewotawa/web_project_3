@@ -13,3 +13,22 @@
 .footer__link:hover {
   opacity: 0.8;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+/* anything larger than max-width: 1280px, use defaults */
+
+/* resolutions 1024px to 1279px */
+
+/* resolutions 768px to 1023px */
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin: 0 0 32px 0;
+  }
+
+  .footer__link:nth-child(3) {
+    margin: 0 0 48px 0;
+  }
+}

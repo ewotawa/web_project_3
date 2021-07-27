@@ -25,4 +25,10 @@
   }
 }
 
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
+}
 

@@ -32,3 +32,14 @@
   }
 }
 
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .place__title {
+    margin: 0 16px;
+    max-width: unset;
+    width: auto;
+    /* typography */
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

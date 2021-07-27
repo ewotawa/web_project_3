@@ -35,3 +35,15 @@
     line-height: 26px;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: unset;
+    margin: 25px 16px 0;
+  }
+
+  .place__paragraph:nth-child(1) {
+    margin: 0 16px 0;
+  }
+}

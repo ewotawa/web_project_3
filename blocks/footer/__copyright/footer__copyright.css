@@ -1,4 +1,23 @@
 .footer__copyright {
   margin: 0 0 24px;
   padding: 0;
+  /* typography */
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/* anything larger than max-width: 1280px, use defaults */
+
+/* resolutions 1024px to 1279px */
+
+/* resolutions 768px to 1023px */
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    /* typography */
+    line-height: 14px;
+  }
 }

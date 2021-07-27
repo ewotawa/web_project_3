@@ -1,6 +1,6 @@
 .intro__title {
   max-width: 690px;
-  max-height: 116px;
+  min-height: 116px;
   margin: 0;
   padding: 0;
   /* typography */
@@ -22,5 +22,17 @@
   .intro__title {
     max-width: 720px;
     margin: 0 auto;
+  }
+}
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .intro__title {
+    max-width: unset;
+    width: auto;
+    margin: 0 16px 0;
+    /* typography */
+    font-size: 32px;
+    line-height: 35px;
   }
 }

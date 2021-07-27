@@ -32,3 +32,11 @@
     max-height: 480px;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .cover {
+    margin: 64px auto 0;
+    max-height: 200px;
+  }
+}

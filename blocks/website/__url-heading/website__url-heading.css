@@ -27,3 +27,14 @@
     line-height: 12px;
   }
 }
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .website__url-heading {
+    margin: 0 16px;
+    max-width: unset;
+    width: auto;
+    /* typography */
+    font-size: 12px;
+  }
+}

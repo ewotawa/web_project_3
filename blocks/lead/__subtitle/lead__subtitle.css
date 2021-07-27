@@ -20,3 +20,17 @@
     margin-bottom: 56px;
   }
 }
+
+/* resolutions 768px to 1023px */
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    max-width: unset;
+    width: auto;
+    margin: 16px 16px 40px;
+    /* typography */
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
