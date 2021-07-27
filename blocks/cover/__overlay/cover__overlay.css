@@ -2,8 +2,8 @@
   /* use color wheel to convert opacity to transparency */
   /* reference: https://www.programmersought.com/article/34886097812/ */
   background-color: rgba(42, 44, 47, 0.3);
-  width: 1184px;
-  height: 740px;
+  min-width: 1184px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   display: inline-block;
@@ -25,6 +25,7 @@
 /* resolutions 1024px to 1279px */
 @media screen and (max-width: 1279px) {
   .cover__overlay {
+    min-width: unset;
     width: 100%;
     max-height: 640px;
   }

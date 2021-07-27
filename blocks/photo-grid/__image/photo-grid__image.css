@@ -1,6 +1,6 @@
 .photo-grid__image {
-  width: 284px;
-  height: 213px;
+  min-width: 284px;
+  min-height: 213px;
 }
 
 /* ----- MEDIA QUERIES ----- */
@@ -10,23 +10,25 @@
 /* resolutions 1024px to 1279px */
 @media screen and (max-width: 1279px) {
   .photo-grid__image {
-    width: 300px;
-    height: 225px;
+    min-width: 300px;
+    min-height: 225px;
   }
 }
 
 /* resolutions 768px to 1023px */
 @media screen and (max-width: 1023px) {
   .photo-grid__image {
-    width: 352px;
-    height: 264px;
+    min-width: 352px;
+    min-height: 264px;
   }
 }
 
 /* resolutions less than 768px */
 @media screen and (max-width: 767px) {
   .photo-grid__image {
-    width: 288px;
-    height: 216px;
+    min-width: unset;
+    max-width: 288px;
+    min-height: unset;
+    max-height: 216px;
   }
 }
