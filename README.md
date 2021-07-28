@@ -8,7 +8,7 @@ Responsive web site that demonstrates use of relative heights and widths, media 
 
 ## Description of the technologies and techniques used
 * Figma: Collaborative interface design tool. See the link below to review the design brief specific to this project.
-* Fonts: Fonts stored locally in the project structure rather than imported from Google Fonts or other external sources.
+* Fonts: Fonts stored locally in the project structure rather than imported from Google Fonts or other external sources. I commented out the variable font and experimental multi-axis font to pass Practicum's code review.
 * `normalize.css` and `.editorconfig` to standardize CSS starting point and IDE, respectively.
 * Block-Element-Modifier (BEM) Methodology to organize HTML code and CSS classes.
 * Image compression via tinypng. See the link below for more information about this application.

@@ -4,7 +4,6 @@
   background-color: rgba(42, 44, 47, 0.3);
   min-width: 1184px;
   min-height: 740px;
-  display: flex;
   flex-direction: column;
   display: inline-block;
   /* hover animation */
