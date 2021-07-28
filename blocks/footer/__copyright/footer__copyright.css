@@ -3,7 +3,7 @@
   padding: 0;
   /* typography */
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1; /* 16px / 14px */
 }
 
 /* ----- MEDIA QUERIES ----- */
@@ -18,6 +18,6 @@
 @media screen and (max-width: 767px) {
   .footer__copyright {
     /* typography */
-    line-height: 14px;
+    line-height: 1; /* 14px / 14px */
   }
 }

@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1.1; /* 18px / 16px */
 }
 
 
@@ -23,6 +23,6 @@
   .footer__link-content {
     /* typography */
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1; /* 24px / 24px */
   }
 }

@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 1.4; /* 34px / 24px */
 }
 
 /* ----- MEDIA QUERIES ----- */
@@ -33,6 +33,6 @@
     width: auto;
     margin: 40px 16px 0;
     /* typography */
-    line-height: 30px;
+    line-height: 1.25; /* 30px / 24px */
   }
 }

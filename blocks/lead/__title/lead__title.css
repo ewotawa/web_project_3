@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.0; /* 100px / 96px */
 }
 
 /* ----- MEDIA QUERIES ----- */
@@ -28,6 +28,6 @@
     margin: 0 16px;
     /* typography */
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1; /* 44px / 40px */
   }
 }

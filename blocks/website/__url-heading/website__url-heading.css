@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 170%;
+  line-height: 1.7; /* 20px / 12px */
   letter-spacing: 0.2em;
   color: #AAAAAA;
 }
@@ -24,7 +24,7 @@
     min-width: unset;
     max-width: 352px;
     /* typography */
-    line-height: 12px;
+    line-height: 1.0; /* 12px / 12px */
   }
 }
 
@@ -34,7 +34,5 @@
     margin: 0 16px;
     max-width: unset;
     width: auto;
-    /* typography */
-    font-size: 12px;
   }
 }
