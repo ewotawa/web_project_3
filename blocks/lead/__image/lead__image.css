@@ -1,6 +1,6 @@
 .lead__image {
   max-width: 984px;
-  max-height: 615px;
+  max-height: 615px; /* sizing is for an image, not for text */
   margin: 0 auto;
 }
 

@@ -1,6 +1,5 @@
 .intro__subtitle {
   max-width: 690px;
-  max-height: 68px;
   margin: 40px 0 0;
   padding: 0;
   /* typography */
@@ -29,7 +28,6 @@
 @media screen and (max-width: 767px) {
   .intro__subtitle {
     max-width: unset;
-    max-height: unset;
     width: auto;
     margin: 40px 16px 0;
     /* typography */

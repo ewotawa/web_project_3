@@ -1,7 +1,7 @@
 .place__image {
   grid-area: image;
   min-width: 460px;
-  min-height: 460px;
+  min-height: 460px; /* height is to size an image, not text */
 }
 
 /* ----- MEDIA QUERIES ----- */

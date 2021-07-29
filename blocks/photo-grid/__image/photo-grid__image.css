@@ -1,6 +1,6 @@
 .photo-grid__image {
   min-width: 284px;
-  min-height: 213px;
+  min-height: 213px; /* height is to size an image, not text */
 }
 
 /* ----- MEDIA QUERIES ----- */

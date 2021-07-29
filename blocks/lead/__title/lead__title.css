@@ -1,6 +1,5 @@
 .lead__title {
   max-width: 720px;
-  min-height: 200px;
   text-align: center;
   margin: 0 auto;
   /* typography */
@@ -22,7 +21,6 @@
 /* resolutions less than 768px */
 @media screen and (max-width: 767px) {
   .lead__title {
-    min-height: unset;
     max-width: unset;
     width: auto;
     margin: 0 16px;

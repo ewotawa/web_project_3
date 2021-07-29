@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   max-width: 460px;
-  min-height: 76px;
   /* typography */
   font-style: normal;
   font-weight: 900;
@@ -25,7 +24,6 @@
 /* resolutions 768px to 1023px */
 @media screen and (max-width: 1023px) {
   .place__title {
-    min-height: 46px;
     /* typography */
     font-size: 42px;
     /* line-height: 46px / 42px = 1.1*/
@@ -38,7 +36,6 @@
     margin: 0 16px;
     max-width: unset;
     width: auto;
-    min-height: unset;
     /* typography */
     font-size: 32px;
     /*line-height: 35px / 32px = 1.1 */
