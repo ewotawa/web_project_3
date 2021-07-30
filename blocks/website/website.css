@@ -23,7 +23,7 @@
 @media screen and (max-width: 1023px) {
   .website {
     max-width: unset;
-    min-width: 352px
+    min-width: 352px;
   }
 }
 
