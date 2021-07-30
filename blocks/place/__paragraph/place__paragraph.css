@@ -2,7 +2,7 @@
   /* note -- some inconsistency in margins (Erie, PA: 27px; Ohio: 29px; all others: 25px). Assume 25px for all. */
   margin: 25px 0 0;
   padding: 0;
-  max-width: 484px;
+  width: auto;
   /* typography */
   font-style: normal;
   font-weight: normal;
@@ -20,16 +20,10 @@
 /* anything larger than max-width: 1280px, use defaults */
 
 /* resolutions 1024px to 1279px */
-@media screen and (max-width: 1023px) {
-  .place__paragraph {
-    max-width: 456px;
-  }
-}
 
 /* resolutions 768px to 1023px */
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-    max-width: 352px;
     /* typography */
     font-size: 16px;
     line-height: 1.625; /* 26px / 16px */
@@ -39,7 +33,6 @@
 /* resolutions less than 768px */
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    max-width: unset;
     margin: 25px 16px 0;
   }
 

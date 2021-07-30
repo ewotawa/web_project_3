@@ -4,4 +4,32 @@
   justify-content: flex-end;
   margin: 0;
   padding: 0;
+  min-width: 484px;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/* anything larger than max-width: 1280px, use defaults */
+
+/* resolutions 1024px to 1279px */
+@media screen and (max-width: 1279px) {
+  .website {
+    min-width: unset;
+    max-width: 456px;
+  }
+}
+
+/* resolutions 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  .website {
+    max-width: unset;
+    min-width: 352px
+  }
+}
+
+/* resolutions less than 768px */
+@media screen and (max-width: 767px) {
+  .website {
+    max-width: 288px;
+  }
 }
